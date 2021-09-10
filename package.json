@@ -1,0 +1,22 @@
+{
+  "name": "test_addon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node-gyp rebuild",
+    "clean": "node-gyp clean"
+  },
+  "gypfile": true,
+  "keywords": [
+    "addon"
+  ],
+  "author": "Bing Yang",
+  "license": "ISC",
+  "devDependencies": {
+    "node-gyp": "^8.2.0"
+  },
+  "dependencies": {
+    "node-addon-api": "^4.1.0"
+  }
+}
