@@ -4,6 +4,8 @@
   "description": "Test node add on with node-addon-api",
   "main": "index.js",
   "scripts": {
+    "build": "node-gyp rebuild",
+    "clean": "node-gyp clean",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
