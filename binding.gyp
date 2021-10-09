@@ -4,7 +4,8 @@
         "cflags!": [ "-fno-exceptions" ],
         "cflags_cc!": [ "-fno-exceptions" ],
         "sources": [
-            "src/main.cpp"
+            "src/main.cpp",
+            "src/Examples/functionexample.cpp"
         ],
         'include_dirs': [
             "<!@(node -p \"require('node-addon-api').include\")"
