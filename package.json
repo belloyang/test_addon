@@ -1,0 +1,26 @@
+{
+  "name": "test_addon",
+  "version": "1.0.0",
+  "description": "Test node add on with node-addon-api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/belloyang/test_addon.git"
+  },
+  "author": "Bing Yang",
+  "gypfile": true,
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/belloyang/test_addon/issues"
+  },
+  "homepage": "https://github.com/belloyang/test_addon#readme",
+  "devDependencies": {
+    "node-gyp": "^8.2.0"
+  },
+  "dependencies": {
+    "node-addon-api": "^4.2.0"
+  }
+}
