@@ -1,8 +1,12 @@
-const testAddon = require('./build/Release/testaddon.node');
-console.log('testAddon.hello:', testAddon.hello());
-console.log('testAddon.add:', testAddon.add(1,2));
-const classInstance = new testAddon.ClassExample(4.3);
-console.log('Testing class initial value : ',classInstance.getValue());
-console.log('After adding 3.3 : ',classInstance.add(3.3));
-
-module.exports = testAddon;
+"use strict";
+exports.__esModule = true;
+exports.add = exports.hello = void 0;
+var testAddon = require('./build/Release/testaddon.node');
+function hello() {
+    return testAddon.hello();
+}
+exports.hello = hello;
+function add(a, b) {
+    return testAddon.add(a, b);
+}
+exports.add = add;
